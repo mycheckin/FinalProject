@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webappsecurity.tests.ViewAccountSummary">
+      <class name="com.webappsecurity.tests.TestMoneyMap">
         <methods>
           <include name="setUp"/>
-          <include name="viewSummary"/>
+          <include name="testCollapsiable"/>
         </methods>
-      </class> <!-- com.webappsecurity.tests.ViewAccountSummary -->
+      </class> <!-- com.webappsecurity.tests.TestMoneyMap -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
